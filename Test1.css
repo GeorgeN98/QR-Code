@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body{
     background-color:hsl(212, 45%, 89%);
-    display: block;
+
+    min-height: 100vh;
+    display: grid;
+    
     
 }
 p{
     text-align: center;
-     Font-size: 15px;
+     Font-size: 0.5em;
      font-family: 'Outfit', sans-serif;
      font: weight 700px;
 }
 .attribution {
-     font-size: 15px; 
+     font-size: 2em; 
      color: black; 
      font-weight: 400;
      border: solid 3px white;
